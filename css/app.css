@@ -1,0 +1,182 @@
+#wrap {
+	width:750px;
+	height: 600px;
+	margin:0 auto;
+}
+
+#incubator
+{
+	float:left;
+	width:500px;
+	height: 600px;
+	position: relative;
+	top: 0px;
+}
+
+#material
+{
+	float: right;
+	width:250px;
+	height: 600px;
+	position: relative;
+	top: -70px;
+}
+
+#costcontainer
+{	
+	width: 170px;
+	height: 90px;
+	position: relative;
+	left: 250px;
+	top: 115px;
+}
+
+#costinnercontainer
+{
+	position: relative;
+	left: 75px;
+	top: -85px;
+	width: 44px;
+}
+
+#costfixedinnercontainer
+{
+	position: relative;
+	left: 130px;
+	top:-152px;
+	width: 30px;
+}
+
+.cost
+{
+	position: relative;
+	font-family: Calibri, Verdana;
+	font-size: 30px;
+	text-align: center;
+}
+
+#designing
+{
+	position: relative;
+	left: 10px;
+	width: 446px;
+	height: 40px;
+	top: -30px;
+}
+
+.PCMcontainer
+{
+	width:90px;
+	height:90px;
+/*	border:1px solid #aaaaaa;
+*/	position:relative; 
+}
+
+#PCM1container
+{
+	top:-280px;
+	left:245px; 
+}
+
+#PCM2container
+{
+	top:-260px; 
+	left:245px; 
+}
+
+#PCM3container
+{
+	top:-460px; 
+	left:345px; 
+}
+
+#PCM4container
+{
+	top:-440px; 
+	left:345px; 
+}
+
+.PCM
+{
+	width: 90px;
+	height: 90px;
+}
+
+#PWcontainer
+{
+	top:-440px;
+	left:20px; 
+}
+
+#SAcontainer
+{
+	top:-420px;
+	left:20px;
+}
+
+#FUcontainer
+{
+	top:-400px;
+	left:20px;
+}
+
+.CLcontainer
+{
+	width: 100px;
+	height: 50px;
+	position: relative;
+}
+
+#CLcontainer
+{
+	top: -410px;
+	left: 212px;
+}
+
+.CL
+{
+	width: 100px;
+	height: 50px;
+}
+
+#WPcontainer
+{
+	top:-457px;
+	left:15px;
+}
+
+#nyloncontainer
+{
+	top:-392px;
+	left:15px;
+}
+
+#cottoncontainer
+{
+	top:-387px;
+	left:15px;
+}
+
+#testbutton
+{
+	position: relative;
+	top: 30px;
+	width: 100px;
+	height: 45px;
+}
+
+.info{
+	visibility: hidden;
+	position: relative;
+	top:-50px;
+	left: 20px;
+}
+
+#logo
+{
+	position: relative;
+	top: 30px;
+	left: 580px;
+	width: 100px;
+	height: 45px;
+}

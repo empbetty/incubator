@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Baby Incubator</title>
+<link rel="stylesheet" href="css/app.css"/>
+<script src="js/app.js"></script>
+</head>
+
+
+<body onload="begin()">
+	<div id="wrap">
+		<div id="logo">
+			<img src="image/logo.png" alt="logo" style="width:110px;height:100px" draggable="false" class="logo">
+		</div>
+
+		<div id="testbutton">
+			<img src="image/testbutton.png" alt="testbutton" style="width:100px;height:45px" onclick="store()" draggable="false" class="testbutton">
+		</div>
+
+		<div id="costcontainer">
+			<img src="image/cost.png" alt="cost" style="width:200px;height:105px" draggable="false" class="costimg">
+ 			<div id="costinnercontainer" class="costinnercontainer">
+ 				<p id="cost" class="cost">0</p>
+ 			</div>
+ 			<div id="costfixedinnercontainer" class="costfixedinnercontainer">
+	 			<p id="costfixed" class="cost">00</p>
+	 		</div>
+		</div>
+
+		<div id="designing">
+			<img src="image/designing.png" alt="designing" style="width:446px;height:40px" draggable="false" class="designing">
+		</div>
+
+		<div id="incubator">
+
+			<img src="image/incubator.png" alt="incubator" style="width:450px;height:400px" draggable="false" class="incubator">
+
+			<div id="PCM1container" ondrop="drop(event)" ondragover="allowDrop(event)" ondblclick="cancelSelection(event)" class="PCMcontainer">
+				<img src="image/PCM1.png" alt="PCM1" draggable="false" class="PCM" id="PCM1">
+			</div>
+
+			<div id="PCM2container" ondrop="drop(event)" ondragover="allowDrop(event)" ondblclick="cancelSelection(event)" class="PCMcontainer">
+				<img src="image/PCM2.png" alt="PCM2" draggable="false" class="PCM" id="PCM2">
+			</div>
+
+			<div id="PCM3container" ondrop="drop(event)" ondragover="allowDrop(event)" ondblclick="cancelSelection(event)" class="PCMcontainer">
+				<img src="image/PCM3.png" alt="PCM3" draggable="false" class="PCM" id="PCM3">
+			</div>
+
+			<div id="PCM4container" ondrop="drop(event)" ondragover="allowDrop(event)" ondblclick="cancelSelection(event)" class="PCMcontainer">
+				<img src="image/PCM4.png" alt="PCM4" draggable="false" class="PCM" id="PCM4">
+			</div>
+
+			<div id="CLcontainer" ondrop="drop(event)" ondragover="allowDrop(event)" ondblclick="cancelSelection(event)" class="CLcontainer">
+				<img src="image/CL.png" alt="CL" draggable="false" class="CL" id="CL">
+			</div>
+
+		</div>
+
+
+		<div id="material">
+			<img src="image/price.png" alt="price" style="width:230px;height:450px" draggable="false" class="price">
+			
+			<div id="PWcontainer" class="PCMcontainer" onclick="showinfo(event)">
+				<img src="image/36.png" alt="PW" draggable="true" ondragstart="drag(event)" class="PCM" id="PW">
+				<img src="image/infoPW.png" style="width:164px;height:60px" id="infoPW" draggable="false" class="info">
+			</div>
+
+			<div id="SAcontainer" class="PCMcontainer" onclick="showinfo(event)">
+				<img src="image/39.png" alt="SA" draggable="true" ondragstart="drag(event)" class="PCM" id="SA">
+				<img src="image/infoSA.png" style="width:164px;height:60px" id="infoSA" draggable="false" class="info">
+
+			</div>
+
+			<div id="FUcontainer" class="PCMcontainer" onclick="showinfo(event)">
+				<img src="image/37.png" alt="FU" draggable="true" ondragstart="drag(event)" class="PCM" id="FU">
+				<img src="image/infoFU.png" style="width:164px;height:60px" id="infoFU" draggable="false" class="info">
+			</div>
+
+			<div id="nyloncontainer" class="CLcontainer" onclick="showinfo(event)">
+				<img src="image/nylon.png" alt="nylon" draggable="true" ondragstart="drag(event)" class="CL" id="nylon">
+				<img src="image/infonylon.png" style="width:164px;height:40px" id="infonylon" draggable="false" class="info">
+			</div>
+
+			<div id="cottoncontainer" class="CLcontainer" onclick="showinfo(event)">
+				<img src="image/cotton.png" alt="cotton" draggable="true" ondragstart="drag(event)" class="CL" id="cotton">
+				<img src="image/infocotton.png" style="width:164px;height:40px" id="infocotton" draggable="false" class="info">
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

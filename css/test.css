@@ -1,0 +1,138 @@
+#wrap {
+	width:750px;
+	height: 600px;
+	margin:0 auto;
+}
+
+#spec
+{
+	float:left;
+	width:325px;
+	height: 220px;
+	position: relative;
+	top: 50px;
+}
+
+.result
+{
+	position: relative;
+	font-family: Calibri, Verdana;
+	font-size: 22px;
+	text-align: center;
+}
+
+#result
+{
+	float: right;
+	width:425px;
+	height: 220px;
+	position: relative;
+	top: 50px;
+}
+
+#resulttimeinnercontainer
+{
+	position: relative;
+	left: 260px;
+	top: -142px;
+	width: 110px;
+}
+
+#resultratinginnercontainer
+{
+	position: relative;
+	left: 260px;
+	top:-127px;
+	width: 110px;
+}
+
+.specimg
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#specCLinnercontainer
+{
+	position: relative;
+	left: 234px;
+	top: -185px;
+	width: 68px;
+}
+
+#specSAinnercontainer
+{
+	position: relative;
+	left: 234px;
+	top:-189px;
+	width: 68px;
+}
+
+#specPWinnercontainer
+{
+	position: relative;
+	left: 234px;
+	top:-193px;
+	width: 68px;
+}
+
+#specFUinnercontainer
+{
+	position: relative;
+	left: 234px;
+	top:-197px;
+	width: 68px;
+}
+
+#speccostinnercontainer
+{
+	position: relative;
+	left: 234px;
+	top:-201px;
+	width: 68px;
+}
+
+.spec
+{
+	position: relative;
+	font-family: Calibri, Verdana;
+	font-size: 17px;
+	text-align: center;
+}
+
+#chart
+{
+	float: left;
+	width: 650px;
+	height: 400px;
+	position: relative;
+	top: 50px;
+}
+
+#designbutton
+{
+	position: relative;
+	top: 30px;
+	width: 140px;
+	height: 45px;
+}
+
+#checkbox
+{
+	float: right;
+	width: 100px;
+	height: 400px;
+	position: relative;
+	top: 200px;
+	font-size: 18px;
+}
+
+#logo
+{
+	position: relative;
+	top: 30px;
+	left: 580px;
+	width: 100px;
+	height: 45px;
+}
